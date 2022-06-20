@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>MAYA</title>
+        <link rel="shortcut icon" href="/img/Лого_белое1.png" type="image/png">
+        <link rel="stylesheet" href="Main.css">
+        <meta name="viewport" content="width=device-width">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    </head>
+<body class="body">   
+    <!--Шапка-->
+    <header class="header">
+        <div class="header1">
+           <div class="text1">Познакомьтесь с акциями этого месяца от MAYA</div>
+        </div>
+        <!--Меню-->
+        <div class="header2">
+            <a href="index.html">
+                <img class="logo1" src="/img/Лого_белое1.png" alt="Логотип">
+            </a>
+            <div class="menu">
+                <a class="text2" href="#">О нас</a>
+                <a class="text3" href="#">Каталог</a>
+                <a class="text4" href="#">Доставка</a>
+            </div>
+   
+            <img class="telephone" src="/img/Телефон.png" alt="Телефон">
+            <a class="text5" href="#">8(800)233-44-55</a>
+        </div>
+        <!--Баннер-->
+        <div class="bunner">
+            <div class="slider">
+                <div class="item">
+                    <img src="/img/Group 123.png" alt="Первый слайд">
+                </div>
+                <div class="item">
+                    <img src="/img/Group 125.png" alt="Второй слайд слайд">
+                </div>
+                <div class="item">
+                    <img src="/img/Group 126.png" alt="Третий слайд">
+                </div>
+                <button class="btn1">Ru/En</button>
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+  	            <a class="next" onclick="plusSlide()">&#10095;</a>
+            </div>
+        </div>
+    </header>
+    
+    <!--Каталог-->
+    <div class="katalog">
+        <h1 class="naz1">КАТАЛОГ ТОВАРОВ</h1>
+        <div class="tovars">
+            <div class="tovar1">
+                <div class="pr1">
+                </div>
+                    <div>
+                        <img class="tov1" src="/img/Rectangle8.png" alt="Товар1">
+                    </div>
+                <div class="tex-1">Бандажи</div>
+            </div>  
+            <div class="tovar2">
+                <div class="pr2"></div>
+                    <div>
+                        <img class="tov2" src="/img/Rectangle5.png" alt="Товар2">
+                    </div>
+                    <div class="tex-2">Бюстгалтеры</div>
+            </div>    
+            <div class="tovar3">
+                <div class="pr3"></div>
+                    <div>
+                        <img class="tov3" src="/img/Rectangle65.png" alt="Товар3">
+                    </div>
+                    <div class="tex-3">Трусики</div>
+            </div>
+            <div class="tovar4">
+                <div class="pr4"></div>
+                    <div>
+                        <img class="tov4" src="/img/Rectangle68.png" alt="Товар4">
+                    </div>
+                    <div class="tex-4">Другое</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Новинки-->
+    <div class="novinki">
+        <h1 class="naz2">ПОСМОТРИТЕ НАШИ НОВИНКИ</h1>
+        <div class="tv1">
+            <div>
+                <img class="im1" src="/img/Слой2.png" alt="Новинка1">
+            </div>
+            <div class="tx1">ТРУСИКИ С ВЫСОКОЙ ТАЛИЕЙ</div>
+        </div>
+        <div class="tv2">
+            <div>
+                <img class="im2" src="/img/Слой1.png" alt="Новинка2">
+            </div>
+            <div class="tx2">ЛЕГИНСЫ</div>
+        </div>
+        <div class="tv3">
+            <div>
+                <img class="im3" src="/img/Слой3.png" alt="Новинка3">
+            </div>
+            <div class="tx3">ЛЕГИНСЫ</div>
+        </div>
+        <div class="tv4">
+            <div>
+                <img class="im4" src="/img/IMG_14221.png" alt="Новинка4">
+            </div>
+            <div class="tx4">БАНДАЖ ПОСЛЕРОДОВОЙ</div>
+        </div>
+    </div>
+    <!--Купон-->
+    <div class="kupon">
+        <img class="kupon1" src="/img/Купон.png" alt="Изображение фона">
+        <div class="text7"><b>ПОЛУЧИ КУПОН</b> СО СКИДКОЙ <b>500 РУБЛЕЙ</b> НА ПЕРВЫЙ ЗАКАЗ</div>
+        <button class="btn2"><div class="bt2">Получить купон</div></button>
+    </div>
+    <!--Отзывы-->
+    <div class="otzivy">
+        <div class="grid1">
+            <h1 class="naz3">ОТЗЫВЫ НАШИХ СЧАСТЛИВЫХ ПОКУПАТЕЛЕЙ</h1>
+        </div>
+        <div class="otzivi">
+            <div class="otz">
+                <div class="otziv">
+                    <div class="ot1">
+                        <div>
+                            <img class="img-osn1" src="/img/Rectangle41.png" alt="Изобр">
+                            <a href="#"><img class="treug1" src="/img/Polygon 13.png" alt="Треуг"></a>
+                        </div>
+                        <div class="te1">Анастасия, 35 лет Новосибирск</div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot2">
+                            <div>
+                                <img class="img-osn2" src="/img/Rectangle42.png" alt="Изобр">
+                                <a href="#"><img class="treug2" src="/img/Polygon 13.png" alt="Треуг"></a>
+                            </div>
+                            <div class="te2">Анастасия, 35 лет Новосибирск</div>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot3">
+                            <div>
+                                <img class="img-osn3" src="/img/Rectangle43.png" alt="Изобр">
+                                <a href="#"><img class="treug3" src="/img/Polygon 13.png" alt="Треуг"></a>
+                            </div>
+                            <div class="te3">Анастасия, 35 лет Новосибирск</div>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot4">
+                            <div>
+                                <img class="img-osn4" src="/img/Rectangle 44.png" alt="Изобр">
+                                <a href="#"><img class="treug4" src="/img/Polygon 13.png" alt="Треуг"></a>
+                            </div>
+                            <div class="te4">Анастасия, 35 лет Новосибирск</div>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot5">
+                            <div>
+                                <img class="img-osn5" src="/img/Rectangle75.png" alt="Изобр">
+                                <a href="#"><img class="treug5" src="/img/Polygon 13.png" alt="Треуг"></a>
+                            </div>
+                            <div class="te5">Анастасия, 35 лет Новосибирск</div>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot6">
+                            <div>
+                                <img class="img-osn6" src="/img/Rectangle76.png" alt="Изобр">
+                                <a href="#"><img class="treug6" src="/img/Polygon 13.png" alt="Треуг"></a>
+                            </div>
+                            <div class="te6">Анастасия, 35 лет Новосибирск</div>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot7">
+                            <div>
+                                <img class="img-osn7" src="/img/Rectangle77.png" alt="Изобр">
+                                <a href="#"><img class="treug7" src="/img/Polygon 13.png" alt="Треуг"></a>
+                            </div>
+                            <div class="te7">Анастасия, 35 лет Новосибирск</div>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot8">
+                            <div>
+                                <img class="img-osn8" src="/img/Rectangle78.png" alt="Изобр">
+                                <a href="#"><img class="treug8" src="/img/Polygon 13.png" alt="Треуг"></a>
+                            </div>
+                            <div class="te8">Анастасия, 35 лет Новосибирск</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn3"><div class="bt3">ПОСМОТРЕТЬ ЕЩЁ БОЛЬШЕ ОТЗЫВОВ</div></button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <!--Вопросы-->
+    <div class="voprosy">
+        <div class="fon1"></div>
+        <h1 id="demo_jump1" class="naz4">НАС ЧАСТО СПРАШИВАЮТ</h1>
+        <div class="voprosi">
+            <div class="vopros1">
+                <div class="pr5"></div>
+                <div class="x1">1. Как выбрать размер?</div>
+                <a href="#" class="plus1">+</a>
+            </div>
+            <div class="vopros2">
+                <div class="pr6"></div>
+                <div class="x2">2. С какого месяца можно носить бандаж?</div>
+                <a href="#" class="plus2">+</a>
+            </div>
+            <div class="vopros3">
+                <div class="pr7"></div>
+                <div class="x3">3. Самый частый вопрос покупателей?</div>
+                <a href="#" class="plus3">+</a>
+            </div>
+
+            <div class="vopros4">
+                <div class="pr8"></div>
+                <div class="x4">4. Еще один популярный вопрос?</div>
+                <a href="#" class="plus4">+</a>
+            </div>
+        </div>
+    </div>
+    <!--Вопрос в WHATSAPP-->
+    <div class="whatsapp">
+        <img class="im5" src="/img/Вопрос.png" alt="img">
+        <div class="text9">НЕ НАШЛИ ОТВЕТ НА СВОЙ ВОПРОС?</div>
+        <div class="text10">Задайте его нам в WhatsApp</div>
+        <button class="btn4"><div class="bt4">СПРОСИТЬ В WHATSAPP</div></button>
+    </div>
+    <!--Подвал-->
+    <div class="footer">
+        <h1 class="naz5">СЛЕДИТЕ ЗА НАШИМИ НОВИНКАМИ</h1>
+        <div class="men">
+            <a class="text11" href="#">Каталог</a>
+            <a class="text12" href="#">Доставка</a>
+            <a class="text13" href="#">Оплата</a>
+        </div>
+        <!--Соцсети-->
+        <div class="seti">
+            <a href="#"><img class="insta" src="/img/Group 53.png" alt="Инстаграм"></a>
+            <a href="#"><img class="youtube" src="/img/Group 51.png" alt="Ютуб"></a>
+            <a href="#"><img class="telega" src="/img/Group 52.png" alt="Телеграм"></a>
+        </div>
+        <!--Форма-->
+        <div class="forms">
+           
+            <!--Почта-->
+            <form class="mg">
+                <h2 class="t-f">Оставьте адрес своей электронной почты</h2>
+                <input class="inpute-1" type="text" placeholder="Ivanovivan@mail.ru" onchange="formValid()" id="i-3">
+                <button type="submit"><div class="s2">ПОЛУЧАТЬ НОВОСТИ НА EMAIL</div></button>
+            </form>
+        </div>
+        <!--О компании-->
+        <div class="info">
+            <div class="xt1">ИНН 458475835656</div>
+            <div class="xt2">ОГРН 34894589345</div>
+            <div class="xt3">Maya store (C) 2021 Все права защищены</div>
+            <div class="xt4">8(800) 233-44-55</div>
+            <div class="xt5">Политика конфиденциальности</div>
+        </div>
+        
+        <div class="popup-window">	
+            <iframe width="1000" height="500" src="https://www.youtube.com/embed/7XOlnyV9osc" allowfullscreen></iframe>
+        </div>
+        <div class="backpopup"></div>
+
+    </div>
+    <button class="back-to-top" type="button"></button>
+    <!--Скрипты-->>
+    <script src="js/slider.js"></script>
+    <script src="js/back.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>
